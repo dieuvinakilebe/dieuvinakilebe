@@ -24,7 +24,7 @@ jobs:
       if: success()
 
     - name: Upload Result
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: result
         path: github_workspace/artifacts
