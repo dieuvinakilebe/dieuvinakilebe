@@ -1,0 +1,42 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Meter Category;Meter Sub-Category;Meter Name;Consumed Service;Yandex Service
+;;;;;App Center;;;microsoft.appcenter;Yandex Cloud Apps
+;;;;;App Configuration;;Free Instances;microsoft.appconfiguration;Yandex Cloud Apps
+;;;;;App Services;API Management;;Microsoft.ApiManagement;Yandex Cloud Apps
+;;;;;App Services;Automation;;Microsoft.Automation;Yandex Cloud Apps
+;;;;;App Services;Key Vault;HSM-key;Microsoft.KeyVault;Yandex Cloud Apps
+;;;;;App Services;Key Vault;Operations%;Microsoft.KeyVault;Yandex Cloud Apps
+;;;;;App Services;Automation;%Automation DSC%;microsoft.automation;Yandex Cloud Apps
+;;;;;App Services;Operational Insights;;microsoft.operationalinsights;Yandex Cloud Apps
+;;;;;App Services;Operational Insights;;Operational Insights;Yandex Cloud Apps
+;;;;;App Services;App Services;Log Analytics Data Ingestion;microsoft.insights;Yandex Cloud Apps
+;;;;;Application Insights;Basic;Continuous Export;microsoft.insights;Yandex Cloud Monitoring
+;;;;;Application Insights;Enterprise;Overage Data;microsoft.insights;Yandex Cloud Monitoring
+;;;;;Application Insights;;Enterprise Node;microsoft.insights;Yandex Cloud Monitoring
+;;;;;Application Insights;;Enterprise Overage Data;microsoft.insights;Yandex Cloud Monitoring
+;;;;;Automation and Control;OMS;Automation Watcher;Microsoft.Automation;Yandex Resource Manager
+;;;;;Automation and Control;OMS;Update Management;Microsoft.Automation;Yandex Resource Manager
+;;;;;Automation;;;Microsoft.Automation;Yandex Resource Manager
+;;;;;Azure App Service;Isolated Plan%;;Microsoft.Web;Yandex Cloud Apps
+;;;;;Data Services;;;;Yandex DataSphere
+;;;;;SQL Data Warehouse;Compute Optimized%;100 DWUs;Microsoft.Sql;Yandex DataSphere
+;;;;;Azure Bastion;;Basic;Microsoft.Network;Yandex Compute Cloud
+;;;;;Azure Bastion;;Data Transfer%;Microsoft.Network;Yandex Compute Cloud
+;;;;;Bandwidth;;Data Transfer%;%Compute;Yandex Compute Cloud
+;;;;;Bandwidth;;%Data Transfer%;Microsoft.ApiManagement;Yandex Compute Cloud
+;;;;;Bandwidth;;%Data Transfer%;Microsoft.Batch;Yandex Compute Cloud
+;;;;;Bandwidth;;%Data Transfer%;%Storage;Yandex Compute Cloud
+;;;;;Azure Firewall;;Deployment;Microsoft.Network;Yandex Compute Cloud
+;;;;;Azure Firewall;;Data Processed;Microsoft.Network;Yandex Compute Cloud
+;;;;;Notification Hubs;;;Microsoft.NotificationHubs;Yandex Message Queue
+;;;;;Power BI;Embedded;;Microsoft.PowerBI;Yandex Datalens
+;;;;;Power BI Embedded;Power BI Embedded;A1 Node;Microsoft.PowerBIDedicated;Yandex Datalens
+;;;;;Power BI Embedded;;A1;Microsoft.PowerBIDedicated;Yandex Datalens
+;;;;;Recovery Services;Backup;Protected Instances;;Yandex Cloud Backup
+;;;;;Recovery Services;Site Recovery;VM replicated to Azure;Microsoft.RecoveryServices;Yandex Cloud Backup
+;;;;;Virtual Machines Licenses;;;;Yandex Compute Cloud
+;;;;;Virtual Machines;Red Hat Enterprise Linux%;Compute Hours;%Compute;Yandex Compute Cloud
+;;;;;Virtual Machines;SQL Server%;Compute Hours;;Yandex Compute Cloud
+;;;;;Virtual Machines;BizTalk Server;Compute Hours;%Compute;Yandex Compute Cloud
+;;;;;Virtual Machines;BizTalk Server Standard%;Compute Hours;%Compute;Yandex Compute Cloud
+;;;;;Virtual Machines;Java Development Environment%;Compute Hours;Unassigned;Yandex Compute Cloud
+;;;;;Virtual Machines;Reservation%;Compute Hours;%Compute;Yandex Compute Cloud
