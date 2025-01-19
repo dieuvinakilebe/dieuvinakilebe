@@ -1,0 +1,41 @@
+IT Tower;Service Family;Service Type;Service Sub Type;Service Usage Type;Product Code;Usage Type; [lineItem/Operation];lineItem/LineItemDescription
+Storage;Application se;Elastic File System;Fees;Tax;AmazonEFS;;;Tax%
+Storage;Management or provisioning;Elastic File System;Storage;Timed Storage (Byte-Hours);AmazonEFS;%TimedStorage-ByteHrs;;
+Storage;Management or provisioning;Elastic File System;Storage; Infrequent Access Data Storage (Bytes);AmazonEFS;%IADataAccess-Bytes;;
+Storage;Management or provisioning;Elastic File System;Storage;Throughput;AmazonEFS;%TP-MiBpsHrs%;;
+Machine Learning;Application Services;Elastic Inference;Fees;Tax;AmazonEI;;;Tax%
+Machine Learning;"GPU-powered
+acceleration";Elastic Inference;Acceleration;EIA1 Accelerator type;AmazonEI;%eia1%;;
+Machine Learning;"GPU-powered
+acceleration";Elastic Inference;Acceleration;EIA2 Accelerator type;AmazonEI;%eia2%;;
+Database;Application Services;ElastiCache;Fees;Tax;AmazonElastiCache;;;Tax%
+Database;In-memory Caching Service;ElastiCache;Cache Nodes;On-demand;AmazonElastiCache;%NodeUsage:cache%;;
+Database;In-memory Caching Service;ElastiCache;Cache Engine;Snapshot;AmazonElastiCache;%CreateCacheSnapshot%;;
+Database;In-memory Caching Service;ElastiCache;Storage;Backup storage;AmazonElastiCache;%ElastiCache:BackupUsage;;
+Security;Application Services;GuardDuty;Fees;Tax;AmazonGuardDuty;;;Tax%
+Security;Threat Detection Service;GuardDuty;Security&Compliance;Monitoring & Threat detection;AmazonGuardDuty;%FreeEventsAnalyzed;;
+Security;Threat Detection Service;GuardDuty;Security&Compliance;Monitoring & Threat detection;AmazonGuardDuty;%PaidEventsAnalyzed;;
+Security;Threat Detection Service;GuardDuty;Security&Compliance;Events Analysis;AmazonGuardDuty;%FreeEventsAnalyzed-Bytes;;
+Security;Threat Detection Service;GuardDuty;Security&Compliance;Events Analysis;AmazonGuardDuty;%PaidEventsAnalyzed-Bytes;;
+Analytics;Application Services;Kinesis;Fees;Tax;AmazonKinesis;;;Tax%
+Analytics;Process and analyze streaming data;Kinesis;Data Stream;Provisioned Mode;AmazonKinesis;%Storage-ShardHour;;
+Analytics;Process and analyze streaming data;Kinesis;Data Stream;Metric of the resource ;AmazonKinesis;%PutRequestPayloadUnits;;
+Analytics;Process and analyze streaming data;Kinesis;Data Stream;On-demand;AmazonKinesis;%ReadBytes;;
+Analytics;Process and analyze streaming data;Kinesis;Data Stream;Enhanced fan-out;AmazonKinesis;%EnhancedFanoutHour;;
+Analytics;Process and analyze streaming data;Kinesis;Data Stream;Provisioned Mode;AmazonKinesis;%Extended-ShardHour;;
+Machine Learning;Intelligent enterprise search service;Kendra;Subscription type;Enterprise edition;AmazonKendra;%KendraEnterpriseEdition;;
+Machine Learning;Intelligent enterprise search service;Kendra;Pricing;DocumentScanned;AmazonKendra;%DocumentsScanned;;
+Machine Learning;Intelligent enterprise search service;Kendra;Pricing;Per hour per onnector when syncing;AmazonKendra;%ConnectorSync;;
+Machine Learning;Application Services;Lex;Fees;Tax;AmazonLex;;;Tax%
+Machine Learning;Artificial Intelligence;Lex;Request and respond interaction;Speech request, test request;AmazonLex;%Req%;;
+Compute;Cloud resources;Lightsail;Instance Data Transfer;Data transfer;AmazonLightsail;%DataXfer%;;
+Compute;Cloud resources;Lightsail;Instance ;VPS;AmazonLightsail;%UnusedStaticIP;;
+Compute;Cloud resources;Lightsail;Instance  plan;Object Storage;AmazonLightsail;%BundleUsage%;;
+Compute;Cloud resources;Lightsail;Block storage;Instance and disk usage;AmazonLightsail;%DiskUsage;;
+Compute;Cloud resources;Lightsail;Block storage;Instance and disk snapshots;AmazonLightsail;%SnapshotUsage;;
+Database;Application Services;Redshift;Fees;Tax;AmazonRedshift;;;Tax%
+Database;Cloud Data Warehouse;Redshift;RA3 Instance;Node RA3 type;AmazonRedshift;%Node:ra%;;
+Database;Cloud Data Warehouse;Redshift;Redshift Spectrum;SQL queries data in Amazon S3;AmazonRedshift;%DataScanned%;;
+Database;Cloud Data Warehouse;Redshift;Dense Compute;DC2 large node;AmazonRedshift;%Node:dc%;;
+Database;Cloud Data Warehouse;Redshift;Dense Storage;DS2;AmazonRedshift;%Node:ds%;;
+Networking and Content delivery;DNS Webservice;Route 53;Domain Names;Route53 Resolver DNS Firewall;AmazonRegistrar;%Route53-Domains;;
